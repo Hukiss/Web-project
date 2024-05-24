@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Link cdn do bootstrap 5.3 -->
+    <link href="./assets/bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link do javascript do bootstrap 5.3 -->
+    <!-- Local css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@300;600;900&display=swap" rel="stylesheet">
+    
+    <title>Online Library</title>
+</head>
+<body>
+    
+    <header class="navbar navbar-expand-md px-5 fixed-top">
+        <div class="container-fluid">
+            
+            <!-- Logotipo -->
+            <a class="navbar-brand" href="#">Logotipo</a>
+            
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navegation area -->
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Author</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Category</a>
+                        <ul class="dropdown-menu mt-4">
+                            <li><a class="dropdown-item" href="#">Drama</a></li>
+                            <li><a class="dropdown-item" href="#">Romance</a></li>
+                            <li><a class="dropdown-item" href="#">Ficção científica</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About us</a>
+                    </li>
+                </ul>
+                <button class="btn-signin py-2 px-3 text-light ms-3">Sign in</button>
+            </nav>
+            
+        </div>
+    </header>
+
+    <main class="mt-5">
+        <div class="container-fluid px-5">
+            <section class="row banner d-flex align-items-center">
+                <article class="col-md-6 col-12 ps-5">
+                    <h1 class="mb-5">Online <strong class="d-md-block">Library</strong></h1>
+        
+                    <p class="pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. In quidem iure pariatur sed quod perspiciatis consequuntur ipsam illum nulla ab laboriosam fuga molestiae reiciendis repudiandae, sit mollitia quam omnis optio!</p>
+        
+                    <a href="" class="d-inline px-3 py-2 rounded-5 nav-link mb-5">Read more</a>
+                </article> <!-- Informations banner end -->
+    
+                <article class="col-md-6 col-12 mt-3">
+                    <img class="img-fluid" src="images/img.jpg" alt="Ilustrative image of an online library">
+                </article> <!-- Image banner end -->
+            </section> <!-- Banner end -->
+        </div>
+
+        <section class="our-services text-light py-5 mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Nossos Serviços</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus neque. Ut porttitor, libero sed lacinia efficitur, orci nulla luctus lectus, vel feugiat elit velit eu magna.</p>
+                        
+                        <ul>
+                            <li>
+                                <strong>Ampla Coleção:</strong> Explore nossa vasta coleção de livros, abrangendo diversos gêneros e autores.
+                            </li>
+                            <li>
+                                <strong>Acesso Online:</strong> Acesse os livros de qualquer lugar, a qualquer hora, através da nossa plataforma online.
+                            </li>
+                            <li>
+                                <strong>Leitura Offline:</strong> Baixe seus livros favoritos para leitura offline, sem a necessidade de conexão com a internet.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Adicione aqui elementos visuais, como imagens ou ícones, se desejar -->
+                        <!-- Exemplo: <img src="caminho/para/imagem.jpg" alt="Ilustração de serviços"> -->
+                    </div>
+                </div>
+            </div>
+        </section> <!-- Preview books cover end -->
+
+        <section class="featured-books mt-4">
+            <div class="container">
+                <h2>Destaques</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/cover-1.jpg" class="card-img-top" alt="Book one cover">
+                            <div class="card-body">
+                                <h5 class="card-title">Título do Livro 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus neque.</p>
+                                <a href="#" class="btn btn-primary">Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/cover-2.webp" class="card-img-top" alt="Book two cover">
+                            <div class="card-body">
+                                <h5 class="card-title">Título do Livro 2</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus neque.</p>
+                                <a href="#" class="btn btn-primary">Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/cover-3.webp" class="card-img-top" alt="Book three cover">
+                            <div class="card-body">
+                                <h5 class="card-title">Título do Livro 3</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus neque.</p>
+                                <a href="#" class="btn btn-primary">Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Adicione este código no final do seu corpo HTML (antes da tag </body>) -->
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Categoria: Informações -->
+                <div class="col-md-3 mb-4">
+                    <h5>Informações</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Termos de Serviço</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+
+                <!-- Categoria: Suporte -->
+                <div class="col-md-3 mb-4">
+                    <h5>Suporte</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Perguntas Frequentes (FAQ)</a></li>
+                        <li><a href="#">Envio e Devoluções</a></li>
+                        <li><a href="#">Ajuda</a></li>
+                    </ul>
+                </div>
+
+                <!-- Categoria: Ofertas e Promoções -->
+                <div class="col-md-3 mb-4">
+                    <h5>Ofertas e Promoções</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Promoções Especiais</a></li>
+                        <li><a href="#">Programa de Afiliados</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+
+                <!-- Categoria: Redes Sociais -->
+                <div class="col-md-3 mb-4">
+                    <h5>Redes Sociais</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

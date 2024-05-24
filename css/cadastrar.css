@@ -1,0 +1,80 @@
+body{
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+}
+
+.div-principal{
+    width: 35%;
+    height: 300px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    position: relative;
+    top: 60px;
+    background:rgb(225, 225, 227);
+    border-radius: 5px;
+}
+
+.img-pessoa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+}
+
+.h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form div{
+    display: flex;
+}
+
+div.container input{
+    width: 154px;
+    height: 25px;
+}
+
+.container {
+    padding-top: 10px;
+    display: flex;
+    gap: 5px; /* Ajustar o valor como desejar */
+}
+
+input {
+  flex: 1;
+}
+
+div.container-1 input{
+    width: 85%;
+    margin-bottom: 10px; /* Ajustar o valor como desejar */
+}  
+
+.container-1{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 10px;
+    width: 100%;
+}
+
+form button{
+    width: 87%;
+    height: 30px;
+    background: rgb(62, 153, 244);
+    border-radius: 4px;
+}

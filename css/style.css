@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@300;600;900&display=swap');
+
+*
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root
+{
+    --text-size: 1.1rem;
+    --color-black: #000;
+    --color-blue: rgb(59, 93, 248);
+    --color-blue-hover: rgba(59, 93, 248, .8);
+    --color-orange: rgb(252, 180, 47);
+    --color-orange-hover: rgba(252, 180, 47,.8);
+}
+
+body{
+    padding-top: 50px;
+}
+
+
+/* Styling header */
+header.navbar
+{
+    padding: 25px 0;
+}
+
+header.navbar
+{
+    background: rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .05);
+}
+
+ul.navbar-nav > .nav-item > .nav-link
+{
+    color: var(--color-black);
+    font-size: var(--text-size);
+    font-weight: 600;
+    color: var(--color-black);
+}
+
+ul.navbar-nav > .nav-item > .nav-link:hover
+{
+    color: var(--color-blue);
+}
+
+button.btn-signin
+{
+    border-radius: 30px;
+    padding: 10px;   
+    background-color: var(--color-blue);
+    transition: .3s;
+}
+
+button.btn-signin:hover
+{
+    background-color: var(--color-blue-hover);
+}
+
+/* Main formating */
+
+/* Banner and info */
+section.banner:first-child h1
+{
+    font-size: 5em;
+    font-weight: 800;
+    color: var(--color-blue);
+}
+
+section.banner:first-child h1>strong
+{
+    color: var(--color-black);
+}
+
+section.banner:first-child a
+{
+    background-color: var(--color-orange);
+}
+
+section.banner:first-child a:hover
+{
+    background-color: var(--color-orange-hover);
+}
+
+/* Our services */
+section.our-services
+{
+    background: var(--color-blue);
+}
+
+/* Fade efect */
+.lazy-load {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
